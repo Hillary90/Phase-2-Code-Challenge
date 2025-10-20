@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import YourBotArmy from "../components/YourBotArmy";
+import BotCollection from "../components/BotCollection";
+
 
 function BotsPage() {
   const [bots, setBots] = useState([]);
@@ -66,6 +69,18 @@ function BotsPage() {
       <h1 className="text-3xl font-extrabold  text-teal-400 tracking-wide text-center">
         Bot Battlr
       </h1>
+
+       <YourBotArmy 
+        botArmy={botArmy}
+        handleDelete={handleDelete}
+        handleOnClick={handleOnClick}
+      />
+
+      <BotCollection 
+        bots={bots}
+        handleDelete={handleDelete}
+        handleOnClick={handleOnClick}
+      />
       
     </div>
   );
