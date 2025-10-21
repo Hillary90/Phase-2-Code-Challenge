@@ -12,7 +12,7 @@ function BotsPage() {
     async function fetchBots() {
       try {
 
-        const response = await fetch("http://localhost:8001/bots");
+        const response = await fetch("http://localhost:3000/bots");
 
         if (!response.ok) throw new Error("Failed to fetch bots");
 
@@ -49,7 +49,7 @@ function BotsPage() {
   const handleDelete = async (bot) => {
     try {
 
-      await fetch(`http://localhost:8001/bots/${bot.id}`, {
+      await fetch(`http://localhost:3000/bots/${bot.id}`, {
 
         method: "DELETE"
       
