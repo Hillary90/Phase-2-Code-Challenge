@@ -10,7 +10,7 @@ https://phase-2-code-challenge-sable.vercel.app/
 
 # Screenshot
 Home Page
-![Home Page](./src/assets/screencapture-localhost-3001-2025-11-03-16_46_09.png)
+![Home Page](./src/assets/screencapture-localhost-3001-2025-11-03-16_51_38.png)
 
 ## Project Overview
 
