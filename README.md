@@ -8,6 +8,10 @@ This project was built using **React** and a **JSON Server backend** to simulate
 ## live link
 https://phase-2-code-challenge-sable.vercel.app/
 
+# Screenshot
+Home Page
+![Home Page](./src/assets/screencapture-localhost-3001-2025-11-03-16_46_09.png)
+
 ## Project Overview
 
 The app allows users to:
